@@ -1,0 +1,42 @@
+@media (max-width: 1166px){
+  .projects{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .projects a{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+  }
+  .insta, .text, .prototipo, .forecast, .urna, .slide{
+    width: 100%;
+  }
+}
+
+@media (max-width: 752px){
+  .me{
+    position: fixed;
+    right: -320px;
+    transition: .3s;
+  }
+
+  .anim h1, span{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 333px){
+  header h1{
+    font-size: 1.5rem;
+  }
+
+  .sub{
+    font-size: 1.5rem;
+  }
+
+  .insta, .text, .prototipo, .forecast, .urna, .slide{
+    width: 100vh;
+  }
+}

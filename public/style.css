@@ -1,0 +1,55 @@
+@import "./css/main.css";
+@import "./css/subMenu.css";
+@import "./css/stack.css";
+@import "./css/skills.css";
+@import "./css/animation.css";
+@import "./css/projects.css";
+@import "./css/media-queries.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Sora', sans-serif;
+}
+
+header{
+  background-color: #212529;
+  padding: 1rem;
+}
+
+header .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header button{
+  display: none;
+}
+
+@media (max-width: 752px){
+  header .container{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header button{
+    display: block;
+  }
+}
+
+header .container ul{
+  list-style: none;
+  display: flex;
+}
+
+header .container ul li{
+  margin: 0 5px;
+  font-size: 1.2rem;
+  position: relative;
+}

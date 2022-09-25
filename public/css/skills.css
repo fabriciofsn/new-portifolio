@@ -1,0 +1,19 @@
+.skills li{
+  list-style: none;
+  color: white;
+  margin-top: 15px;
+  text-align: left;
+  width: 120px;
+}
+
+.skills {
+  height: 100%;
+}
+
+.skills ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
