@@ -20,6 +20,7 @@
     position: fixed;
     right: -320px;
     transition: .3s;
+    width: 320px;
   }
 
   .anim h1, span{
